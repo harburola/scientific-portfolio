@@ -5,9 +5,9 @@ page-layout: full
 
 ::::: hero-portada
 ::: hero-texto
-# Nombre Apellido
+# Hillary Arburola Rivera
 
-## Estudiante de Bachillerato en Biología
+## Estudiante de Bachillerato en Biología Tropical
 
 Escuela de Ciencias Biológicas\
 Universidad Nacional, Costa Rica
@@ -70,4 +70,4 @@ Este portafolio fue desarrollado con herramientas de ciencia reproducible.
 :::
 
 
-**Última actualización:** Agosto 2026
+**Última actualización:** 4 Agosto 2026
