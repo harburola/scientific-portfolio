@@ -1,0 +1,22 @@
+---
+title: "Práctica 3.Descarga de ocurrencias con RStudio desde iNaturalist y GBIF"
+author: "Hillary Arburola"
+format: html
+editor: visual
+---
+
+## Introducción
+
+En esta práctica se utilizaron los paquetes rgbif y rinat para descargar ocurrencias de la especie de anuro *Craugastor fitzingeri* en Costa Rica. Para el ordenamiento de datos se utilizó el paquete Tidyverse y para la limpieza de datos espaciales se utilizó principalmente el paquete CoordinateCleaner. El mapeo de ocurrencia se realizó con los paquetes sf y tmap. El objetivo de esta práctica fue aprender a realizar la descarga de datos de ocurrencia de una especie desde una API y su posterior limpieza para crear un juego de datos robustos que puedan utilizarse en análisis espacial. En este ejercicio aprendí las bases de la importación de datos desde iNaturalist y GBIF; sin embargo,
+
+Posterior a la limpieza, se construyó un juego de datos preliminar de 3760 ocurrencias, de las cuales 2730 fueron de GBIF y 1030 fueron de iNaturalist (Figura 1).
+
+![](images/craugastor_fitzingeri_occurrences.jpg)
+
+Figura 1. Mapa de Costa Rica mostrando las ocurrencias de la especie *Craugastor fitzingeri* por fuente, a partir de los datos descargados desde las API de GBIF y de iNaturalist en el curso Ecología de Poblaciones y comunidades.
+
+## Interpretación
+
+## Conclusiones
+
+## Referencias

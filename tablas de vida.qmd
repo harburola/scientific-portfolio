@@ -1,0 +1,12 @@
+---
+title: "Práctica 4.Tablas de vida "
+author: "Hillary Arburola"
+format: html
+editor: visual
+---
+
+## Interpretación
+
+## Conclusiones
+
+## Referencias

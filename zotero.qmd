@@ -1,0 +1,46 @@
+---
+title: "Gestión de referencias bibliográficas con Zotero"
+author: "Hillary Arburola"
+format: html
+editor: visual
+---
+
+## Introducción
+
+Con esta práctica se pretende aprender a utilizar una plantilla básica de Quarto.
+
+## Objetivo
+
+- Crear una plantilla básica de Quarto para documentar las prácticas del curso.
+- Crear nuevas páginas a partir de la plantilla sin modificar el archivo original.
+- Utilizar **Visual Mode** para editar documentos Quarto
+- Incorporar texto, figuras y cuadros.
+- Incorporar referencias bibliográficas generadas desde Zotero.
+- Renderizar una página Quarto.
+- Integrar una nueva página al portafolio científico.
+- Publicar los cambios mediante Git y GitHub Pages
+
+## Metodología
+
+Se descargaron referencias y se utilizó Zotero para realizar la gestión bibliográfica.
+
+## Resultados
+
+Imágenes y figuras
+
+| Método | ¿Cuándo utilizarlo? |
+|------------------------------------|------------------------------------|
+| DOI | Cuando la publicación tiene un DOI conocido |
+| Archivo RIS | Cuando la revista o base de datos permite exportar la referencia |
+| Zotero Connector | Para capturar referencias directamente desde el navegador |
+| Entrada manual | Cuando la información no puede importarse automáticamente |
+
+: Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
+
+## Conclusiones
+
+Conclusión personal, algo que aprendí usando Zotero.
+
+## Referencias
+
+salvar, renderizar y esto va directo al sitio web.
