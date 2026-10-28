@@ -39,11 +39,17 @@ En esta práctica se importarán datos, así como se realizará una limpieza, ma
 ::: portfolio-item
 ### 📚 Generación de tablas de vida
 
-En esta práctica se generarán tablas de vida y figuras para interpretar datos demográficos obtenidos de una población humana, recopilados de dos cementerios de Costa Rica. 
+En esta práctica se generarán tablas de vida y figuras para interpretar datos demográficos obtenidos de una población humana, recopilados de dos cementerios de Costa Rica.
 
 [Ver práctica →](tablas%20de%20vida.qmd "Tablas de vida")
 :::
 
+::: portfolio-item
+### 📚 Diversidad
+
+En esta práctica se obtendrán índices de diversidad.
+
+[Ver práctica →](diversidad.qmd "Diverdiad")
 :::
 
 ------------------------------------------------------------------------
