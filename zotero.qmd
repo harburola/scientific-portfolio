@@ -7,29 +7,82 @@ editor: visual
 
 ## Introducción
 
-Con esta práctica se pretende aprender a utilizar una plantilla básica de Quarto.
+Esta primera práctica tiene como meta servir de tutorial para aprender a gestionar referencias a partir de la aplicación Zotero. Este es un gestor de referencias que permite organizar, recopilar y citar diferentes tipos de documento de caracter científico. Es una herramienta de gran utilidad tanto para quienes inician en su proceso de redacción de artículos científicos, como para los más experimentados y citados en la academia.
 
-## Objetivo
+Los objetivos de esta práctica son:
 
-- Crear una plantilla básica de Quarto para documentar las prácticas del curso.
-- Crear nuevas páginas a partir de la plantilla sin modificar el archivo original.
-- Utilizar **Visual Mode** para editar documentos Quarto
-- Incorporar texto, figuras y cuadros.
-- Incorporar referencias bibliográficas generadas desde Zotero.
-- Renderizar una página Quarto.
-- Integrar una nueva página al portafolio científico.
-- Publicar los cambios mediante Git y GitHub Pages
+- Crear y organizar una biblioteca bibliográfica en Zotero.
 
-## Metodología
+- Incorporar referencias mediante DOI, archivos RIS y Zotero Connector.
 
-Se descargaron referencias y se utilizó Zotero para realizar la gestión bibliográfica.
+- Revisar y corregir los metadatos de una referencia.
 
-## Resultados
+- Instalar y utilizar un estilo bibliográfico.
 
-Imágenes y figuras
+- Insertar citas y bibliografías automáticamente en Microsoft Word.
+
+- Incorporar referencias que no corresponden a artículos científicos, como reportes, páginas web y software.
+
+- Citar R, RStudio y paquetes de R.
+
+## Métodos:
+
+Primero preparamos Zotero:
+
+En la aplicación, creamos la colección "tutorial_zotero" para posteriormente, recopilar en esta todas las referencias.
+
+Seguidamente, comprobamos la correcta integración del programa con Microsoft Word:
+
+Yendo a la pestaña "Zotero" en el panel superior de Word, seleccionamos la pestaña de zotero. Usamos la opción **"Add/edit citation"** y seleccionamos el formato **APA Style 7th Edition** o el formato de preferencia. Esto nos llevará al panel de Zotero. Esto nos confirma que la integración se hizo correctamente.
+
+**NOTAR:** Zotero debe de mantenerse abierto en todo momento para que la conexión con Word funcione.
+
+Una vez realizados estos pasos de preparación, procederemos a incorporar las referencias a zotero a partir de 3 métodos diferentes: Por DOI, por importación de un archivo RIS y por conector de Zotero.
+
+### Método 1. DOI. 
+
+Vamos a escoger un artículo científico para copiar su DOI.
+
+Para fines de práctica, recomendaremos este: https://doi.org/10.1146/annurev.ecolsys.36.102003.152614
+
+Con el doi, copiado, vamos a Zotero, seleccionamos la colección tutorial_zotero y en la barra superior, usamos el botón Add Item by Identifier, el cual posee un ícono de varita mágica. Pegamos el DOI y al presionar enter, este debería de ser incorporado exitosamente en la colección. Esto funciona porque Zotero busca los metadatos y agrega de forma automática la información de la publicación.
+
+Finalmente, revisamos la información del artículo: título, autores, año, revista, volumen, número, páginas y DOI para verificar que todo coincida con el artículo seleccionado.
+
+### Método 2. Archivo RIS
+
+Dependiendo de la base de datos o revistas, se puede contar con la extensión .ris. La opción podría identificarse como: **Cite, Citation, Export, Export citation, RIS o Reference manager.** Siempre deberíamos de poder identificar RIS como formato para este método.
+
+Una vez descargado, lo abrimos on Zotero y seleccionamos la colección nuestra colección para esta práctica. Esto nos integrará el archivo correctamente.
+
+Finalmente, al igual que hicimos con el DOI, debemos comprobar que la referencia haya sido importada correctamente.
+
+### Método 3. Conector de Zotero
+
+Este método es muy práctico, porque nos permite incorporar la referencia desde el navegador de nuestra preferencia.
+
+Para este método, utilizaremos el artículo: **Population status and natural history notes on the critically endangered stream dwelling frog *Craugastor ranoides* (Craugastoridae) in a Costa Rican tropical dry forest.**
+
+Buscamos el título en el navegador, lo abrimos y buscamos el ícono de la extensión de Zotero Connector en el navegador. Hacemos clic sobre este y seleccionamos nuestra colección. Finalmente, abrimos Zotero y comprobamos que la referencia haya sido incorporada.
+
+### Revisión y corrección de referencias 
+
+¡Excelente! Hemos aprendido a incorporar las referencias. Sin embargo, es importantísimo revisarlas y corregirlas apropiadamente, puesto que no podemos asumir que todos los metadatos estén correctos.
+
+Verificamos:
+
+Título, con un adecuado uso de mayúsculas y minúsculas según el tipo de publicación.
+
+Nombres científicos: deben conservar la cursiva siempre.
+
+Autores: nombres y apellidos correctamente escritos.
+
+Tipo de documento: comprobamos que Zotero haya identificado bien: **Journal Article**, **Book**, **Book Section**, **Report**, **Web Page**, etc.
+
+Como guía para reconocer cuándo utilizar estos métodos, se puede usar el cuadro 1.
 
 | Método | ¿Cuándo utilizarlo? |
-|----|----|
+|------------------------------------|------------------------------------|
 | DOI | Cuando la publicación tiene un DOI conocido |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia |
 | Zotero Connector | Para capturar referencias directamente desde el navegador |
@@ -37,10 +90,92 @@ Imágenes y figuras
 
 : Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
 
-## Conclusiones
+### Insertar las citas en word 
 
-Conclusión personal, algo que aprendí usando Zotero.
+Ahora si, vamos a incorporar las citas que necesitamos para nuestro manuscrito o trabajo en Word.
 
-## Referencias
+Abrimos la pestaña "Zotero" en el panel superior de Word, seleccionamos la pestaña de zotero. Usamos la opción **"Add/edit citation"** y seleccionamos el formato **APA Style 7th Edition** o el formato de preferencia. Esto nos llevará al panel de Zotero, donde iremos a la colección y seleccionaremos nuestra fuente. Esto nos dará una cita parentética.
 
-salvar, renderizar y esto va directo al sitio web.
+Para obtener una cita narrativa, escribimos manualmente el nombre del autor como parte de nuestra oración, insertamos la cita con **"Add/edit citation"** y desplegamos la opción de **Omit Author**, esto nos mostrará solo el paréntesis con el año de la publicación.
+
+### Bibliografía automática 
+
+Podemos generar la bibliografía, yendo a referencias, seleccionamos Zotero y con **Add/Edit Bibliography** podemos construir automáticamente las referencias.
+
+Revisamos el resultado y corregimos los datos si es necesario desde Zotero. En Word todos los cambios que hagamos desaparecerán cada vez que insertemos la bibliografía nuevamente.
+
+### Referencias que no son artículos científicos
+
+Con referencias de reportes y otros documentos institucionales, usamos el conector de Zotero y revisamos autor institucional, título, año, institución y URL o seleccionamos en "nuevo elemento" el tipo de documento e introducimos la información solicitada de forma manual.
+
+### Citas de R y paquetes 
+
+Obtenemos la manera de citarlo del mismo R a través de "citation( )" colocando entre el paréntesis el nombre del paquete. Esto nos dará la referencia. Debemos inspeccionar qué tipo de documento es e introducirla según lo aprendido de acuerdo al tipo de documento.
+
+### Citas de RStudio 
+
+Lo primero es reconocer la versión de R ejecutando "RStudio.Version( )" y constrimos la referencia con "nuevo elemento" usamos "software" e introducimos lo que R nos indica.
+
+#### Práctica 
+
+Hemos llegado al final del tutorial. Corresponde poner en práctica lo aprendido.
+
+Al final de esto, deberíamos de tener:
+
+Referencias bien integradas en Zotero.
+
+2 tipos de citas de un artículo a partir de su DOI.
+
+Ajuntar prueba de haber encontrado el DOI de un artículo científico.
+
+Construir la referencia de un artículo técnico.
+
+Citar un paquete.
+
+Generar una bibliografía de forma automática
+
+#### Mis evidencias 
+
+Fui capaz de generar las siguientes citas:
+
+Narrativas:
+
+1.  Gallant y colaboradores (2007) señalan que la pérdida de hábitat en anfibios ha aumentado en los últimos años.
+2.  Nussear y colaboradores (2009) dijeron que la tortuga de desierto tiene amplia distribución en Mojave y zonas desérticas de California.
+
+Parantéticas:
+
+1.  No  se encontraron fuentes para el rebrote de  hepatitis en Costa Rica (Villarejos et al. 1972).
+2.  Los extractos metanólicos de *Ficus* *chlamydocarpa* y de *Ficus cordata tuvieron* un desempeño excelente (Kuete et al. 2008)
+
+Una referencia de un reporte
+
+Los planes de gestión necesitan involucrar a las comunidades locales (SINAC, 2016)
+
+Referencia de un paquete
+
+El paquete “sf” es muy útil (Pebesma 2018; Pebesma & Bivand 2023).
+
+Y la generación de bibliografía automática en estilo *Conservation Biology*:
+
+Referencias
+
+Gallant AL, Klaver RW, Casper GS, Lannoo MJ. 2007. Global Rates of Habitat Loss and Implications for Amphibian Conservation. Copeia **2007**:967–979.
+
+Kuete V, Ngameni B, Simo CCF, Tankeu RK, Ngadjui BT, Meyer J. JM, Lall N, Kuiate JR. 2008. Antimicrobial activity of the crude extracts and compounds from *Ficus chlamydocarpa* and *Ficus cordata*(Moraceae). Journal of Ethnopharmacology **120**:17–24.
+
+Nussear, K.E., Esque, T.C., Inman, R.D., Gass, Leila, Thomas, K.A., Wallace, C.S.A., Blainey, J.B., Miller, D.M., Webb, R.H. 2009. Modeling Habitat of the Desert Tortoise *(Gopherus agassizii)* in the Mojave and Parts of the Sonoran Deserts of California, Nevada, Utah, and Arizona. Open-File report 2009–1102. USGS. Available from https://pubs.usgs.gov/publication/ofr20091102.
+
+Pebesma E. 2018. Simple Features for R: Standardized Support for Spatial Vector Data. The R Journal **10**:439.
+
+Pebesma E, Bivand R. 2023. Spatial Data Science: With Applications in R, 1st edition. Chapman and Hall/CRC, New York. Available from https://www.taylorfrancis.com/books/9780429459016 (accessed August 11, 2026).
+
+SINAC. 2016. Guía para el diseño y formulación del Plan General del manejo de las áreas de vida silvestres protegidas de Costa Rica. Page 55. Informe Técnico 2da ed.
+
+Villarejos VM, Arguedas JA, Gutiérrez A, Eduarte E, Gilberto Vargas A, Osborne JA. 1972. Hepatitis epidemic in a hyperendemic zone of Costa Rica. Report of a second outbreak within four years. American Journal of Epidemiology **96**:361–371.
+
+### Conclusión
+
+Utilizando Zotero para esta práctica, adquirí una herramienta de enorme utilidad al redactar mis trabajos universitarios, para redactar mis textos científicos con mucha más agilidad y de forma más ordenada.
+
+Al recopilar todas mis referencias en Zotero, es mucho menos probable que pierda mis referencias, por lo que ahora soy capaz de gestionar mis citas y referencias en formato APA 7 sin complicaciones mayores.
