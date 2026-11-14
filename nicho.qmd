@@ -1,0 +1,20 @@
+---
+title: "Práctica . "
+author: "Hillary Arburola"
+format: html
+editor: visual
+---
+
+## Introducción
+
+## Objetivo
+
+## Metodología
+
+## Resultados
+
+## Interpretación
+
+## Conclusiones
+
+## Referencias
