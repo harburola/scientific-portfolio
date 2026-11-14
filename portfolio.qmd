@@ -15,7 +15,7 @@ Cada práctica constituye una evidencia del aprendizaje adquirido durante el sem
 ::: portfolio-item
 ### 📚 Gestión de referencias bibliográficas con Zotero
 
-En esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.
+En esta práctica se rdocumenta el uso de Zotero para recopilar documentos científicos, generar citas y referencias con Microsoft Word.
 
 [Ver práctica →](zotero.qmd "Zotero")
 :::

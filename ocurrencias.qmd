@@ -13,8 +13,4 @@ Posterior a la limpieza, se construyó un juego de datos preliminar de 3760 ocur
 
 Figura 1. Mapa de Costa Rica mostrando las ocurrencias de la especie *Craugastor fitzingeri* por fuente, a partir de los datos descargados desde las API de GBIF y de iNaturalist en el curso Ecología de Poblaciones y comunidades.
 
-## Interpretación
-
-## Conclusiones
-
-## Referencias
+## 
