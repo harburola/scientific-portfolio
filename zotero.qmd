@@ -22,7 +22,7 @@ Se buscó un artículo científico y se incorporó a Zotero a través del conect
 Como guía para reconocer cuándo utilizar estos métodos, se puede usar el cuadro 1.
 
 | Método | ¿Cuándo utilizarlo? |
-|------------------------------------|------------------------------------|
+|----|----|
 | DOI | Cuando la publicación tiene un DOI conocido |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia |
 | Zotero Connector | Para capturar referencias directamente desde el navegador |
