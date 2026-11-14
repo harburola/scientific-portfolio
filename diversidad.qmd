@@ -21,4 +21,4 @@ Los sitios 1 y 2 presentaron la mayor similitud en la composición de especies, 
 
 *Figura 2. Similitud de Jaccard entre los tres sitios de estudio, calculada a partir de la presencia y ausencia de especies. Los valores cercanos a 1 indican mayor semejanza en la composición.*
 
-Aprendí que una comunidad puede tener pocas especies y, aun así, presentar una alta equidad. Lo más difícil fue distinguir entre la riqueza acumulada de todo un sitio y la riqueza de cada parcela, porque ambas responden preguntas distintas. Podría aplicar estos índices en un proyecto de restauración para evaluar si las parcelas restauradas ganaron especies con el tiempo y si su composición se acercó a la de un sitio de referencia.
+En esta práctica aprendí que una comunidad puede tener pocas especies y, aun así, presentar una alta equidad. Lo más difícil fue distinguir entre la riqueza acumulada de todo un sitio y la riqueza de cada parcela, porque ambas responden preguntas distintas. Podría aplicar estos índices en un proyecto de restauración para evaluar si las parcelas restauradas ganaron especies con el tiempo y si su composición se acercó a la de un sitio de referencia.
