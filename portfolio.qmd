@@ -31,7 +31,7 @@ En esta práctica se importarán datos, así como se realizará una limpieza, ma
 ::: portfolio-item
 ### 📚 Descarga de ocurrencias con RStudio desde iNaturalist y GBIF
 
-En esta práctica se importarán datos, así como se realizará una limpieza, manipulación y visualización de datos.
+En esta práctica se descargarán datos de ocurrencia de Craugastor fitzingeri a través de las plataformas iNaturalist y GBIF.
 
 [Ver práctica →](ocurrencias.qmd "Ocurrencias")
 :::
@@ -45,11 +45,35 @@ En esta práctica se generarán tablas de vida y figuras para interpretar datos 
 :::
 
 ::: portfolio-item
+### 📚 Mapeo de zonas administrativas y zonas de vida
+
+En esta práctica se obtendrán mapas de observaciones de Craugastor fitzingeri para Costa Rica, según provincias, zonas de vida de Savage y por cantones.
+
+[Ver práctica →](mapeo%20de%20zonas%20administrativas.qmd "zonas administrativas y zonas de vida")
+:::
+
+::: portfolio-item
+### 📚 Nicho bidimensional
+
+En esta práctica se explora el nicho ambiental de una especie a partir de sus registros de ocurrencia.
+
+[Ver práctica →](nicho.qmd "nicho")
+:::
+
+::: portfolio-item
+### 📚 KDE
+
+En esta práctica se obtiene el índice de densidad de Kernel para Craugastor fitzingeri.
+
+[Ver práctica →](kde.qmd "KDE")
+:::
+
+::: portfolio-item
 ### 📚 Diversidad
 
-En esta práctica se obtendrán índices de diversidad.
+En esta práctica se obtuvieron índices de diversidad.
 
-[Ver práctica →](diversidad.qmd "Diverdiad")
+[Ver práctica →](diversidad.qmd "Diversidad")
 :::
 
 ------------------------------------------------------------------------
@@ -58,4 +82,4 @@ En esta práctica se obtendrán índices de diversidad.
 
 Más que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.
 
-Al finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica.
+Al finalizar el semestre, en este sitio se evidenciará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica.
